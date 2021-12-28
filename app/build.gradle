@@ -41,14 +41,13 @@ dependencies {
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:3.6.1'
 
-
+   // Firebase Dependencies
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
-
     implementation 'com.google.firebase:firebase-database:20.0.3'
-
     implementation 'com.google.firebase:firebase-auth'
-
     implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
+    implementation 'com.google.firebase:firebase-storage'
+
 
 }
 
